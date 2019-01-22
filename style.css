@@ -1,0 +1,304 @@
+﻿
+@charset "utf-8";
+/* CSS Document */
+
+*{
+margin:0px;
+padding:0px;
+font-family: Arial, Helvetica, sans-serif
+}
+
+ul{
+margin-left:40px;
+}
+
+body{
+}
+
+a{
+color:rgb(30,90,255);
+}
+
+#top{
+	background-color:rgb(238,242,252);
+	color:#000;
+	margin:auto;
+	height:30px;
+}
+
+#main{
+width:960px;
+margin:auto;
+}
+
+#myfig{
+	margin-top:20px;
+	float:left;
+}
+
+#title{
+text-align:left;
+margin-top:50px;
+padding-left:200px;
+font-size:18px;
+color:#333;
+}
+
+#section{
+	padding-top:10px;
+	text-align:justify;
+	clear:both; /*clear float*/
+}
+
+
+#pimage{
+	float:left;
+	margin-top:20px;
+}
+
+#pimage img{
+	width:150px;
+}
+
+#pinfo{
+	margin-left:180px;
+	margin-top:40px;
+}
+
+#pinfo span{
+	color:#333;
+}
+
+#pseg{
+	clear:left;
+}
+
+#bibtex{
+	padding-left:65px;
+}
+	
+
+#download-left{
+float:left;
+margin-top:10px;
+}
+
+#download{
+	padding-left:50px;
+}
+
+#download ul{
+	margin-left:0px;
+	padding-top:10px;
+}
+
+li{
+	padding-top:5px;
+}
+
+#bottom{
+width:960px;
+margin:auto;
+}
+
+#bottom-body{
+width:960px;
+float:left;
+margin:20px auto auto auto;
+padding-bottom:50px;
+text-align:center;
+line-height:180%;
+color:#333;
+}
+
+
+
+#head{
+width:960px;
+height:69px;
+background-image:url(img/head.jpg);
+background-repeat:no-repeat;
+margin:10px auto 10px auto;
+}
+
+#top-menu{
+/*float:left;/*阻止边界合并*/
+/*margin: 20px auto auto 195px;*/
+position:relative;
+left:198px;
+top:24px;
+}
+
+#top-menu span{
+margin-left:10px;
+margin-right:10px;
+}
+
+#top-menu img{
+border:0px;
+}
+
+#top-menu a{
+text-decoration:none;
+}
+
+
+
+#cover{
+width:960px;
+height:480px;
+background-image:url(img/cover.jpg);
+margin:auto;
+margin-top:20px;
+}
+
+#middle{
+width:960px;
+margin:auto;
+}
+
+#mid-left a{
+text-decoration:none;
+color:#444;
+font-family:"新宋体";
+}
+
+#mid-left li{
+padding-bottom:5px;
+}
+
+#mid-sub-menu a{
+font-size:14px;
+color:rgb(60,120,255);
+}
+
+
+#text{
+width:740px;
+height:auto;
+float:left;
+margin:20px auto auto 20px;
+}
+
+#text-head{
+font-family:"新宋体";
+font-size:20px;
+color:#333;
+margin:5px auto 15px auto;
+background-image:url(item.png);
+background-repeat:no-repeat;
+text-indent:18px;
+}
+
+a{
+color:#08F;
+}
+
+#text-body{
+font-family:"新宋体";
+font-size:14px;
+color:#555;
+text-align:left;
+line-height:160%;
+}
+
+#text-body p{
+text-indent:0em;
+padding-bottom:1em;
+}
+
+#text-body ul{
+list-style:disc;
+}
+
+#text-body li{
+margin-bottom:8px;
+line-height:140%;
+}
+
+#content{
+margin-left:0px;
+}
+
+#content a{
+color:#26F;
+}
+
+#content ul{
+padding-left:0px;
+margin-left:0px;
+}
+
+#content li{
+padding-top:5px;
+}
+
+#content span.note{
+color:#888;
+font-size:13px;
+}
+
+#content p{
+padding:0px;
+}
+
+
+
+#download{
+width:640px;
+height:64px;
+margin: 30px auto auto auto;
+background-image:url(img/download.jpg);
+line-height:120%;
+}
+
+#download_title{
+margin-left:35px;
+padding-top:22px;
+float:left;
+font-size:14px;
+color:#333;
+}
+
+#download_info{
+margin-left:50px;
+padding-top:22px;
+float:left;
+font-size:13px;
+color:#555;
+}
+
+#download_exec{
+margin-left:40px;
+padding-top:32px;
+float:left;
+}
+
+#download_note{
+width:640px;
+margin:auto;
+margin-left:55px;
+line-height:1.25em;
+}
+
+#div_note p{
+padding-bottom:0px;
+line-height:1.5em;
+font-family:"新宋体";
+font-size:13px;
+color:#666;
+}
+
+
+#div_course_step li{
+	padding-top:20px;
+}
+
+#div_ulul ul{
+	margin-left:10px;
+	color:#666;
+}
+
+#div_ulul li{
+	padding:0px;
+}
